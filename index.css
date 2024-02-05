@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+/*Header styling*/
+.header{
+    background-color: #436850;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+h1,h2{
+    margin:0;
+    font-family: 'Source Sans 3', sans-serif;
+    color:whitesmoke;
+}
+.header-div{
+ margin-left: 10px;
+}
+.dog-jpg{
+    height: 100px;
+}
+/*Main styling*/
+main{
+    text-align: center;
+
+}
+h3{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #ADBC9F;
+}
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+.gifs-check{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #436850;
+    margin-top: 10px;
+
+}
+.imageGet-btn{
+    width: 100px;
+    padding:10px 0;
+    align-self: center;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #12372A;
+    color: whitesmoke;
+    
+}
+label{
+    margin-right: auto;
+    font-size: 15px;
+
+}
+.radio{
+ display: flex;
+ align-items: center;
+ border-bottom: #12372A solid 1px;
+ padding: 4px 5px;
+text-align: left;
+
+}
+.radio:last-child{
+    border-bottom:0;
+}
+.emotion-radios{
+
+   display: flex;
+   flex-direction: column;
+   border: 1px green solid;
+   border-radius: 2px;
+
+
+}
+.meme-modal{
+    position: fixed;
+    display: none;
+    width: 500px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: #12372A;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 8px;
+}
+.btn-closeImg{
+height: 30px;
+position:absolute;
+right: 2%;
+top: 2%;
+width: 30px;
+border-radius: 100%;
+border:none;
+background-color:#474F7A ;
+cursor: pointer;
+}
+.img-dogs{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
